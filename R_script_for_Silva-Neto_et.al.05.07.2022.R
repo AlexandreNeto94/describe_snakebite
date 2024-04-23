@@ -1,102 +1,5 @@
 #install.packages("read.dbc")
 library(read.dbc)
-
-#P.S: database source <https://datasus.saude.gov.br/transferencia-de-arquivos/#>
-#################################################################################
-#install.packages("RCurl")
-#library(RCurl)
-#2007
-#download.file("ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ANIMBR07.dbc", "ANIMBR07.dbc")
-#download.file("https://datasus.saude.gov.br/wp-content/zipupload/Arq_863692063/arquivo.zip", "arquivo.zip")
-#unzip("arquivo.zip")
-#BR_2007<- read.dbc("ANIMBR07.dbc")
-
-#2008
-#download.file("ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ANIMBR08.dbc", "ANIMBR08.dbc")
-#download.file("https://datasus.saude.gov.br/wp-content/zipupload/Arq_793334908/arquivo.zip", "arquivo.zip")
-#unzip("arquivo.zip")
-#BR_2008<- read.dbc("ANIMBR08.dbc")
-
-#2009
-#download.file("ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ANIMBR09.dbc", "ANIMBR09.dbc")
-#download.file("https://datasus.saude.gov.br/wp-content/zipupload/Arq_955433351/arquivo.zip", "arquivo.zip")
-#unzip("arquivo.zip")
-#BR_2009<- read.dbc("ANIMBR09.dbc")
-
-#2010
-#download.file("ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ANIMBR10.dbc", "ANIMBR10.dbc")
-#download.file("https://datasus.saude.gov.br/wp-content/zipupload/Arq_978183601/arquivo.zip", "arquivo.zip")
-#unzip("arquivo.zip")
-#BR_2010<- read.dbc("ANIMBR10.dbc")
-
-#2011
-#download.file("ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ANIMBR11.dbc", "ANIMBR11.dbc")
-#download.file("https://datasus.saude.gov.br/wp-content/zipupload/Arq_307330846/arquivo.zip", "arquivo.zip")
-#unzip("arquivo.zip")
-#BR_2011<- read.dbc("ANIMBR11.dbc")
-
-#2012
-#download.file("ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ANIMBR12.dbc", "ANIMBR12.dbc")
-#download.file("https://datasus.saude.gov.br/wp-content/zipupload/Arq_945963653/arquivo.zip", "arquivo.zip")
-#unzip("arquivo.zip")
-#BR_2012<- read.dbc("ANIMBR12.dbc")
-
-#2013
-#download.file("ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ANIMBR13.dbc", "ANIMBR13.dbc")
-#download.file("https://datasus.saude.gov.br/wp-content/zipupload/Arq_903920814/arquivo.zip", "arquivo.zip")
-#unzip("arquivo.zip")
-#BR_2013<- read.dbc("ANIMBR13.dbc")
-
-#2014
-#download.file("ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ANIMBR14.dbc", "ANIMBR14.dbc")
-#download.file("https://datasus.saude.gov.br/wp-content/zipupload/Arq_485859984/arquivo.zip", "arquivo.zip")
-#unzip("arquivo.zip")
-#BR_2014<- read.dbc("ANIMBR14.dbc")
-
-#2015 Arquivo no momento n?o esta presente na base de dados.
-#download.file("ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ANIMBR15.dbc", "ANIMBR15.dbc")
-#download.file("https://datasus.saude.gov.br/wp-content/zipupload/Arq_793334908/arquivo.zip", "arquivo.zip")
-#unzip("arquivo.zip")
-#BR_2015<- read.dbc("ANIMBR14.dbc")
-
-#2016
-#download.file("ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ANIMBR16.dbc", "ANIMBR16.dbc")
-#download.file("https://datasus.saude.gov.br/wp-content/zipupload/Arq_544177183/arquivo.zip", "arquivo.zip")
-#unzip("arquivo.zip")
-#BR_2016<- read.dbc("ANIMBR16.dbc")
-
-#2017
-#download.file("ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ANIMBR17.dbc", "ANIMBR17.dbc")
-#download.file("https://datasus.saude.gov.br/wp-content/zipupload/Arq_625474564/arquivo.zip", "arquivo.zip")
-#unzip("arquivo.zip")
-#BR_2017<- read.dbc("ANIMBR17.dbc")
-
-#2018
-#download.file("ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ANIMBR18.dbc", "ANIMBR18.dbc")
-#download.file("https://datasus.saude.gov.br/wp-content/zipupload/Arq_939699330/arquivo.zip", "arquivo.zip")
-#unzip("arquivo.zip")
-#BR_2018<- read.dbc("ANIMBR18.dbc")
-
-#2019
-#download.file("ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ANIMBR19.dbc", "ANIMBR19.dbc")
-#download.file("https://datasus.saude.gov.br/wp-content/zipupload/Arq_709776556/arquivo.zip", "arquivo.zip")
-#unzip("arquivo.zip")
-#BR_2019<- read.dbc("ANIMBR19.dbc")
-
-#2020
-#download.file("ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ANIMBR20.dbc", "ANIMBR07.dbc")
-#download.file("https://datasus.saude.gov.br/wp-content/zipupload/Arq_862608649/arquivo.zip", "arquivo.zip")
-#unzip("arquivo.zip")
-#BR_2020<- read.dbc("ANIMBR20.dbc")
-
-
-#SINAN_2007_2020 <- rbind(BR_2007,BR_2008,BR_2009,BR_2010,BR_2011,BR_2012,BR_2013,BR_2014,BR_2015,BR_2016,BR_2017,BR_2018,BR_2019,BR_2020)
-#SINAN_2007_2020 <- rbind(BR_2007,BR_2008,BR_2009,BR_2010,BR_2011,BR_2012,BR_2013,BR_2014,BR_2016,BR_2017,BR_2018,BR_2019,BR_2020)
-
-#P.S: database source <https://datasus.saude.gov.br/transferencia-de-arquivos/#>
-###########################################################################################################
-#install.packages("read.dbc")
-library(read.dbc)
 AC_2007 <- read.dbc("arquivo/ANIMAC07.dbc")
 AC_2008 <- read.dbc("arquivo/ANIMAC08.dbc")
 AC_2009 <- read.dbc("arquivo/ANIMAC09.dbc")
@@ -674,6 +577,18 @@ SINAN_2007_2020$IDADE_Y<-as.integer(SINAN_2007_2020$IDADE_Y)
 SINAN_2007_2020 <- SINAN_2007_2020 %>% mutate(IDADE_Y = 
                                                 case_when(is.na(IDADE_Y) ~ 0L,
                                                           TRUE ~ as.integer(IDADE_Y)))
+
+SINAN_2007_2020 <- SINAN_2007_2020 %>% mutate(IDADE_Y = as.numeric(IDADE_Y))
+
+SINAN_2007_2020 <- SINAN_2007_2020 %>% mutate(NU_AMPOLAS= as.numeric(NU_AMPOLAS))
+SINAN_2007_2020 <- SINAN_2007_2020 %>% mutate(NU_AMPOL_1= as.numeric(NU_AMPOL_1))
+SINAN_2007_2020 <- SINAN_2007_2020 %>% mutate(NU_AMPOL_8= as.numeric(NU_AMPOL_8))
+SINAN_2007_2020 <- SINAN_2007_2020 %>% mutate(NU_AMPOL_6= as.numeric(NU_AMPOL_6))
+SINAN_2007_2020 <- SINAN_2007_2020 %>% mutate(NU_AMPOL_4= as.numeric(NU_AMPOL_4))
+SINAN_2007_2020 <- SINAN_2007_2020 %>% mutate(NU_AMPO_7 = as.numeric(NU_AMPO_7))
+SINAN_2007_2020 <- SINAN_2007_2020 %>% mutate(NU_AMPO_5= as.numeric(NU_AMPO_5))
+SINAN_2007_2020 <- SINAN_2007_2020 %>% mutate(NU_AMPOL_9= as.numeric(NU_AMPOL_9))
+SINAN_2007_2020 <- SINAN_2007_2020 %>% mutate(NU_AMPOL_3= as.numeric(NU_AMPOL_3))
  
 
 ############################################################################################################
@@ -1080,7 +995,7 @@ Figure2<-grafico1 %>% mutate(Var2 = factor(Var2,
   #geom_bar(position="dodge", stat="identity") +
   geom_bar( stat="identity") +
   # scale_fill_discrete(guide = guide_legend(label.theme = element_text())) +
-  scale_fill_brewer(palette="YlOrRd", guide = guide_legend(label.theme = element_text(face= "italic")))+
+  scale_fill_brewer(palette="YlOrRd", direction=-1,guide = guide_legend(label.theme = element_text(face= "italic")))+
   # scale_fill_brewer(palette="YlOrRd")+
   # scale_fill_discrete("Type of Accident",
   #                     breaks = c("Micrurus", "Lachesis", "Non-venomous snakes", "Crotalus",
@@ -1125,7 +1040,8 @@ graph1 <-grafico2 %>%
   ggplot(aes(fill=Var2, x=Var1, y=Freq)) + 
   geom_bar(stat="identity") +
   scale_fill_brewer(palette="YlOrRd") + #, direction=-1)+
-  theme_classic(base_size=8)+
+  theme_classic(base_size=12)+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   labs(x = "Year")+
   labs(y = expression("N cases"~italic("(Micrurus)")))+
   labs(fill = "")
@@ -1141,7 +1057,8 @@ graph2 <-grafico3 %>%
   ggplot(aes(fill=Var2, x=Var1, y=Freq)) + 
   geom_bar(stat="identity") +
   scale_fill_brewer(palette="YlOrRd") + #, direction=-1)+
-  theme_classic(base_size=8) +
+  theme_classic(base_size=12) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   labs(x = "Year")+
   labs(y = expression("N cases"~italic("(Lachesis)")))+
   labs(fill = "")
@@ -1155,7 +1072,8 @@ graph3 <-grafico4 %>%
   ggplot(aes(fill=Var2, x=Var1, y=Freq)) + 
   geom_bar(stat="identity") +
   scale_fill_brewer(palette="YlOrRd") + #, direction=-1)+
-  theme_classic(base_size=8) +
+  theme_classic(base_size=12) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   labs(x = "Year")+
   labs(y = "N cases (Non-venomus Snake)")+
   labs(fill = "")
@@ -1168,7 +1086,8 @@ graph4 <-grafico5 %>%
   ggplot(aes(fill=Var2, x=Var1, y=Freq)) + 
   geom_bar(stat="identity") +
   scale_fill_brewer(palette="YlOrRd") + #, direction=-1)+
-  theme_classic(base_size=8) +
+  theme_classic(base_size=12) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   labs(x = "Year")+
   labs(y = expression("N cases"~italic("(Crotalus)")))+
   labs(fill = "")
@@ -1181,7 +1100,8 @@ graph5 <-grafico6 %>%
   ggplot(aes(fill=Var2, x=Var1, y=Freq)) + 
   geom_bar(stat="identity") +
   scale_fill_brewer(palette="YlOrRd") + #, direction=-1)+
-  theme_classic(base_size=8) +
+  theme_classic(base_size=12) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   labs(x = "Year")+
   labs(y = "N cases (Ignored)")+
   labs(fill = "")
@@ -1194,7 +1114,8 @@ graph6 <-grafico7 %>%
   ggplot(aes(fill=Var2, x=Var1, y=Freq)) + 
   geom_bar(stat="identity") +
   scale_fill_brewer(palette="YlOrRd") + #, direction=-1)+
-  theme_classic(base_size=8) +
+  theme_classic(base_size=12) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   labs(x = "Year")+
   labs(y = expression("N cases"~italic("(Bothrops)")))+
   labs(fill = "")
@@ -1216,7 +1137,8 @@ graph1 <-grafico2 %>%
   ggplot(aes(fill=Var2, x=Var1, y=Freq)) + 
   geom_bar(stat="identity") +
   scale_fill_brewer(palette="YlOrRd") + #, direction=-1)+
-  theme_classic(base_size=8) +
+  theme_classic(base_size=12) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   theme(axis.title.y = element_text(face="italic"))+
   labs(x = "Year")+
   labs(y = expression("N cases"~italic("(Micrurus)")))+
@@ -1230,10 +1152,11 @@ graph2 <-grafico3 %>%
   ggplot(aes(fill=Var2, x=Var1, y=Freq)) + 
   geom_bar(stat="identity") +
   scale_fill_brewer(palette="YlOrRd") + #, direction=-1)+
-  theme_classic(base_size=8) +
+  theme_classic(base_size=12) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   theme(axis.title.y = element_text(face="italic"))+
   labs(x = "Year")+
-  labs(y = expression("N cases"~italic("N cases (Lachesis)")))+
+  labs(y = expression("N cases"~italic("(Lachesis)")))+
   labs(fill = "")
 graph2
 
@@ -1245,7 +1168,8 @@ graph3 <-grafico4 %>%
   ggplot(aes(fill=Var2, x=Var1, y=Freq)) + 
   geom_bar(stat="identity") +
   scale_fill_brewer(palette="YlOrRd") + #, direction=-1)+
-  theme_classic(base_size=8) +
+  theme_classic(base_size=12) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   labs(x = "Year")+
   labs(y = "N cases (Non-venomus Snake)")+
   labs(fill = "")
@@ -1258,7 +1182,8 @@ graph4 <-grafico5 %>%
   ggplot(aes(fill=Var2, x=Var1, y=Freq)) + 
   geom_bar(stat="identity") +
   scale_fill_brewer(palette="YlOrRd") + #, direction=-1)+
-  theme_classic(base_size=8) +
+  theme_classic(base_size=12) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   theme(axis.title.y = element_text(face="italic"))+
   labs(x = "Year")+
   labs(y = expression("N cases"~italic("(Crotalus)")))+
@@ -1272,7 +1197,8 @@ graph5 <-grafico6 %>%
   ggplot(aes(fill=Var2, x=Var1, y=Freq)) + 
   geom_bar(stat="identity") +
   scale_fill_brewer(palette="YlOrRd") + #, direction=-1)+
-  theme_classic(base_size=8) +
+  theme_classic(base_size=12) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   labs(x = "Year")+
   labs(y = "N cases (Ignored)")+
   labs(fill = "")
@@ -1285,7 +1211,8 @@ graph6 <-grafico7 %>%
   ggplot(aes(fill=Var2, x=Var1, y=Freq)) + 
   geom_bar(stat="identity") +
   scale_fill_brewer(palette="YlOrRd") + #, direction=-1)+
-  theme_classic(base_size=8) +
+  theme_classic(base_size=12) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   theme(axis.title.y = element_text(face="italic"))+
   labs(x = "Year")+
   labs(y = expression("N cases"~italic("(Bothrops)")))+ 
@@ -1310,7 +1237,7 @@ Figure6<-grafico1 %>% mutate(Var2 = factor(Var2,
   ggplot(aes(fill=Var2, x=Var1, y=Freq)) + 
   #geom_bar(position="dodge", stat="identity") +
   geom_bar( stat="identity") +
-  scale_fill_brewer(palette="YlOrRd", guide = guide_legend(label.theme = element_text(face= "italic"))) + #, direction=-1)+
+  scale_fill_brewer(palette="YlOrRd", direction=-1, guide = guide_legend(label.theme = element_text(face= "italic"))) + #, direction=-1)+
   theme_classic(base_size=12) +
   labs(x = "Year")+
   labs(y = "Number of deaths")+
@@ -1343,17 +1270,17 @@ tab1_final <- SINAN_2007_2020 %>%
          COM_DEFICT.factor ,COM_APUTAC.factor ,COM_SISTEM.factor ,COM_RENAL.factor ,
          COM_EDEMA.factor ,COM_SEPTIC.factor ,COM_CHOQUE.factor ,DOENCA_TRA.factor,EVOLUCAO.factor) %>%
   tbl_summary(by = ANI_SERPEN.factor, missing = "ifany", 
-             # type=list(NU_AMPOLAS~"continuous",
-              #          NU_AMPOL_1~"categorical",NU_AMPOL_8~"categorical",
-               #         NU_AMPOL_6~"categorical",NU_AMPOL_4~"categorical", NU_AMPO_7~"categorical", 
-                #        NU_AMPO_5~"categorical", NU_AMPOL_9~"categorical", NU_AMPOL_3~"categorical",
-                 #       IDADE_Y~"continuous"),
-              statistic = list(all_continuous() ~ "{median} ({p25}-{p75}) ", 
-                               all_integer() ~ "{mean} ({sd}) [{min}, {max}]",
+              type=list(NU_AMPOLAS~"continuous",
+                        NU_AMPOL_1~"continuous",NU_AMPOL_8~"continuous",
+                        NU_AMPOL_6~"continuous",NU_AMPOL_4~"continuous", NU_AMPO_7~"continuous", 
+                        NU_AMPO_5~"continuous", NU_AMPOL_9~"continuous", NU_AMPOL_3~"continuous",
+                        IDADE_Y~"continuous"),
+              statistic = list(all_continuous() ~ "{mean} ({sd}) [{min}, {max}] ", 
+                               #all_integer() ~ "{mean} ({sd}) [{min}, {max}]",
                                all_categorical() ~ "{n} / {N} ({p}%)"
               )) %>%  bold_labels() %>% add_overall %>% as_gt() %>% 
   tab_header("Table 4. Descriptive table.") 
-tab1_final
+ tab1_final
 
 
 #####################################################################################################
@@ -1552,4 +1479,697 @@ map5
 map6
 map7
 
+#Statistical analysis for the outcome of death due to snake bite
+SINAN_2007_2020_statisitic<-SINAN_2007_2020 
+
+
+#Value Labels State  of notification
+SINAN_2007_2020_statisitic$SG_UF_NOT.factor <- factor(SINAN_2007_2020_statisitic$SG_UF_NOT,
+                                           levels = c(11, 12,	13,	14,	15,	16,	17,	21,	22,	23,	24,
+                                                      25,	26,	27,	28,	29,	31,	32,	33,	35,	41,	42,
+                                                      43,	50,	51,	52,	53),
+                                           labels = c("Rondonia", "Acre", "Amazonas",
+                                                      "Roraima", "Para", "Amapa",
+                                                      "Tocantins", "Maranho", "Piaui",
+                                                      "Ceará", "Rio Grande do Norte",
+                                                      "Paraiba", "Pernambuco", "Alagoas",
+                                                      "Sergipe", "Bahia", "Minas Gerais", 
+                                                      "Espirito Santo", "Rio de Janeiro", 
+                                                      "Sao Paulo", "Parana", "Santa Catarina",
+                                                      "Rio Grande do Sul", "Mato Grosso do Sul",
+                                                      "Mato Grosso", "Goiais", "Distrito Federal"))
+
+
+
+#recoding to numeric 
+SINAN_2007_2020_statisitic$CS_SEXO<-str_replace(SINAN_2007_2020_statisitic$CS_SEXO, "[M]", "1")
+SINAN_2007_2020_statisitic$CS_SEXO<-str_replace(SINAN_2007_2020_statisitic$CS_SEXO, "[F]", "2")
+SINAN_2007_2020_statisitic$CS_SEXO<-str_replace(SINAN_2007_2020_statisitic$CS_SEXO, "[I]", "3")
+#Convert String to Integer
+SINAN_2007_2020_statisitic$CS_SEXO<-strtoi(SINAN_2007_2020_statisitic$CS_SEXO)
+
+#Value Labels Biological sex
+SINAN_2007_2020_statisitic$CS_SEXO<-na_if(SINAN_2007_2020_statisitic$CS_SEXO,3)
+SINAN_2007_2020_statisitic$CS_SEXO.factor<- factor(SINAN_2007_2020_statisitic$CS_SEXO,
+                                        levels = c(1,2),
+                                        labels = c("Masculine", "Feminine"))
+
+#Value Labels Pregnant
+SINAN_2007_2020_statisitic$CS_GESTANT<-as.numeric(as.character(SINAN_2007_2020_statisitic$CS_GESTANT))
+SINAN_2007_2020_statisitic$CS_GESTANT<-na_if(SINAN_2007_2020_statisitic$CS_GESTANT,9)
+SINAN_2007_2020_statisitic$CS_GESTANT<-na_if(SINAN_2007_2020_statisitic$CS_GESTANT,6)
+SINAN_2007_2020_statisitic$CS_GESTANT.factor<- factor(SINAN_2007_2020_statisitic$CS_GESTANT,
+                                           levels = c(1,2,3, 4, 5),
+                                           labels = c("1st Quarter", "2nd Quarter",
+                                                      "3nd Quarter", "Gestational Age Unknown",
+                                                      "No"))
+
+#Value Labels Ethnicity
+SINAN_2007_2020_statisitic<-SINAN_2007_2020_statisitic %>% mutate(CS_RACA=as.numeric(CS_RACA))
+SINAN_2007_2020_statisitic$CS_RACA<-na_if(SINAN_2007_2020_statisitic$CS_RACA,9)
+SINAN_2007_2020_statisitic$CS_RACA.factor<- factor(SINAN_2007_2020_statisitic$CS_RACA,
+                                        levels = c(1,2,3,4,5),
+                                        labels = c("White", "African background",
+                                                   "Asian background", "Mixed background",
+                                                   "Native indigenous")) 
+
+#Value Labels Education
+#table(SINAN_2007_2020_statisitic$CS_ESCOL_N)
+#typeof(SINAN_2007_2020_statisitic$CS_ESCOL_N)
+#setting variables to a single code
+#converting to character format
+SINAN_2007_2020_statisitic$CS_ESCOL_N <-as.numeric(as.character(SINAN_2007_2020_statisitic$CS_ESCOL_N))
+#removing the zero from the front
+#Labels Education
+SINAN_2007_2020_statisitic$CS_ESCOL_N<-na_if(SINAN_2007_2020_statisitic$CS_ESCOL_N,9)
+SINAN_2007_2020_statisitic$CS_ESCOL_N.factor<- factor(SINAN_2007_2020_statisitic$CS_ESCOL_N,
+                                           levels = c(0,1,2,3,4,5,6,7,8),
+                                           labels = c("Illiterate",
+                                                      "1st to 4th incomplete grades of EF (former primary or 1st grade)",
+                                                      "4th complete series of EF (former primary or 1st grade)" ,
+                                                      "5th to 8th grade incomplete of EF (former high school or 1st grade) )" ,
+                                                      "Complete elementary school (former high school or 1st grade)" ,
+                                                      "Incomplete high school (former high school or 2nd grade)" , 
+                                                      "Complete high school (former high school or 2nd grade)" , 
+                                                      "Incomplete higher education" ,
+                                                      "Education full upper"))
+
+#Value Labels Occurrence Zone
+SINAN_2007_2020_statisitic$ANT_ZONA<-as.numeric(as.character(SINAN_2007_2020_statisitic$ANT_ZONA))
+SINAN_2007_2020_statisitic$ANT_ZONA<-na_if(SINAN_2007_2020_statisitic$ANT_ZONA,9)
+SINAN_2007_2020_statisitic$ANT_ZONA.factor<- factor(SINAN_2007_2020_statisitic$ANT_ZONA,
+                                         levels = c(1,2,3),
+                                         labels = c("Urban", "Rural", "Periurban"))
+
+#Value Labels Elapsed Time Sting/Attendance
+SINAN_2007_2020_statisitic$ANT_TEMPO_<-as.numeric(as.character(SINAN_2007_2020_statisitic$ANT_TEMPO_))
+SINAN_2007_2020_statisitic$ANT_TEMPO_<-na_if(SINAN_2007_2020_statisitic$ANT_TEMPO_,9)
+SINAN_2007_2020_statisitic$ANT_TEMPO_.factor<- factor(SINAN_2007_2020_statisitic$ANT_TEMPO_,
+                                           levels = c(1,2,3,4,5,6),
+                                           labels = c("0 to 1h" , "1 to 3h" , "3 to 6h" ,
+                                                      "6 to 12h" , "12 to 24h" , ">24h"))
+#Value Labels location of the bite
+table(SINAN_2007_2020_statisitic$ANT_LOCA_1)
+#typeof(SINAN_2007_2020_statisitic$CS_ESCOL_N)
+#setting variables to a single code
+#Labels factor
+SINAN_2007_2020_statisitic$ANT_TEMPO_<-na_if(SINAN_2007_2020_statisitic$ANT_TEMPO_,99)
+SINAN_2007_2020_statisitic$ANT_LOCA_1.factor<- factor(SINAN_2007_2020_statisitic$ANT_LOCA_1,
+                                           levels = c(1,2,3,4,5,6,7,8,9,10),
+                                           labels = c("Head", "Arm", "Forearm",
+                                                      "Hand", "Finger", "Trunk",
+                                                      "Thigh", "Leg", "Foot", "Toe"))
+
+#Value Labels Local Manifestations
+SINAN_2007_2020_statisitic$MCLI_LOCAL<-as.numeric(as.character(SINAN_2007_2020_statisitic$MCLI_LOCAL))
+SINAN_2007_2020_statisitic$MCLI_LOCAL<-na_if(SINAN_2007_2020_statisitic$MCLI_LOCAL,9)
+SINAN_2007_2020_statisitic$MCLI_LOCAL<-replace(SINAN_2007_2020_statisitic$MCLI_LOCAL, SINAN_2007_2020_statisitic$MCLI_LOCAL==2, 0)
+SINAN_2007_2020_statisitic$MCLI_LOCAL.factor<- factor(SINAN_2007_2020_statisitic$MCLI_LOCAL,
+                                           levels = c(1,0),
+                                           labels = c("Yes", "No"))
+
+#Value Labels Ache
+SINAN_2007_2020_statisitic$CLI_DOR<-as.numeric(as.character(SINAN_2007_2020_statisitic$CLI_DOR))
+SINAN_2007_2020_statisitic$CLI_DOR<-na_if(SINAN_2007_2020_statisitic$CLI_DOR,9)
+SINAN_2007_2020_statisitic$CLI_DOR<-replace(SINAN_2007_2020_statisitic$CLI_DOR, SINAN_2007_2020_statisitic$CLI_DOR==2, 0)
+SINAN_2007_2020_statisitic$CLI_DOR.factor<- factor(SINAN_2007_2020_statisitic$CLI_DOR,
+                                        levels = c(1,0),
+                                        labels = c("Yes", "No"))
+
+
+
+#Value Labels Edema
+SINAN_2007_2020_statisitic$CLI_EDEMA<-as.numeric(as.character(SINAN_2007_2020_statisitic$CLI_EDEMA))
+SINAN_2007_2020_statisitic$CLI_EDEMA<-na_if(SINAN_2007_2020_statisitic$CLI_EDEMA,9)
+SINAN_2007_2020_statisitic$CLI_EDEMA<-replace(SINAN_2007_2020_statisitic$CLI_EDEMA, SINAN_2007_2020_statisitic$CLI_EDEMA==2, 0)
+SINAN_2007_2020_statisitic$CLI_EDEMA.factor<- factor(SINAN_2007_2020_statisitic$CLI_EDEMA,
+                                          levels = c(1,0),
+                                          labels = c("Yes", "No"))
+
+
+#Value Labels ecchymosis
+SINAN_2007_2020_statisitic$CLI_EQUIMO<-as.numeric(as.character(SINAN_2007_2020_statisitic$CLI_EQUIMO))
+SINAN_2007_2020_statisitic$CLI_EQUIMO<-na_if(SINAN_2007_2020_statisitic$CLI_EQUIMO,9)
+SINAN_2007_2020_statisitic$CLI_EQUIMO<-replace(SINAN_2007_2020_statisitic$CLI_EQUIMO, SINAN_2007_2020_statisitic$CLI_EQUIMO==2, 0)
+SINAN_2007_2020_statisitic$CLI_EQUIMO.factor<- factor(SINAN_2007_2020_statisitic$CLI_EQUIMO,
+                                           levels = c(1,0),
+                                           labels = c("Yes", "No"))
+
+
+#Value Labels Necrosis
+SINAN_2007_2020_statisitic$CLI_NECROS<-as.numeric(as.character(SINAN_2007_2020_statisitic$CLI_NECROS))
+SINAN_2007_2020_statisitic$CLI_NECROS<-na_if(SINAN_2007_2020_statisitic$CLI_NECROS,9)
+SINAN_2007_2020_statisitic$CLI_NECROS<-replace(SINAN_2007_2020_statisitic$CLI_NECROS, SINAN_2007_2020_statisitic$CLI_NECROS==2, 0)
+SINAN_2007_2020_statisitic$CLI_NECROS.factor<- factor(SINAN_2007_2020_statisitic$CLI_NECROS,
+                                           levels = c(1,0),
+                                           labels = c("Yes", "No"))
+
+#Value Labels other locations
+SINAN_2007_2020_statisitic$CLI_LOCAL_<-as.numeric(as.character(SINAN_2007_2020_statisitic$CLI_LOCAL_))
+SINAN_2007_2020_statisitic$CLI_LOCAL_<-na_if(SINAN_2007_2020_statisitic$CLI_LOCAL_,9)
+SINAN_2007_2020_statisitic$CLI_LOCAL_<-replace(SINAN_2007_2020_statisitic$CLI_LOCAL_, SINAN_2007_2020_statisitic$CLI_LOCAL_==2, 0)
+SINAN_2007_2020_statisitic$CLI_LOCAL_.factor<- factor(SINAN_2007_2020_statisitic$CLI_LOCAL_,
+                                           levels = c(1,0),
+                                           labels = c("Yes", "No"))
+
+
+#Value Labels Systemic manifestations
+SINAN_2007_2020_statisitic$MCLI_SIST<-as.numeric(as.character(SINAN_2007_2020_statisitic$MCLI_SIST))
+SINAN_2007_2020_statisitic$MCLI_SIST<-na_if(SINAN_2007_2020_statisitic$MCLI_SIST,9)
+SINAN_2007_2020_statisitic$MCLI_SIST<-replace(SINAN_2007_2020_statisitic$MCLI_SIST, SINAN_2007_2020_statisitic$MCLI_SIST==2, 0)
+SINAN_2007_2020_statisitic$MCLI_SIST.factor<- factor(SINAN_2007_2020_statisitic$MCLI_SIST,
+                                          levels = c(1,0), 
+                                          labels = c("Yes", "No"))
+
+#Value Labels neuroparalytic
+SINAN_2007_2020_statisitic$CLI_NEURO<-as.numeric(as.character(SINAN_2007_2020_statisitic$CLI_NEURO))
+SINAN_2007_2020_statisitic$CLI_NEURO<-na_if(SINAN_2007_2020_statisitic$CLI_NEURO,9)
+SINAN_2007_2020_statisitic$CLI_NEURO<-replace(SINAN_2007_2020_statisitic$CLI_NEURO, SINAN_2007_2020_statisitic$CLI_NEURO==2, 0)
+SINAN_2007_2020_statisitic$CLI_NEURO.factor<- factor(SINAN_2007_2020_statisitic$CLI_NEURO,
+                                          levels = c(1,0), 
+                                          labels = c("Yes", "No"))
+
+#Value Labels hemorrhagic
+SINAN_2007_2020_statisitic$CLI_HEMORR<-as.numeric(as.character(SINAN_2007_2020_statisitic$CLI_HEMORR))
+SINAN_2007_2020_statisitic$CLI_HEMORR<-na_if(SINAN_2007_2020_statisitic$CLI_HEMORR,9)
+SINAN_2007_2020_statisitic$CLI_HEMORR<-replace(SINAN_2007_2020_statisitic$CLI_HEMORR, SINAN_2007_2020_statisitic$CLI_HEMORR==2, 0)
+SINAN_2007_2020_statisitic$CLI_HEMORR.factor<- factor(SINAN_2007_2020_statisitic$CLI_HEMORR,
+                                           levels = c(1,0), 
+                                           labels = c("Yes", "No"))
+
+#Value Labels specify vagal (vomiting/diarrhea)
+SINAN_2007_2020_statisitic$CLI_VAGAIS<-as.numeric(as.character(SINAN_2007_2020_statisitic$CLI_VAGAIS))
+SINAN_2007_2020_statisitic$CLI_VAGAIS<-na_if(SINAN_2007_2020_statisitic$CLI_VAGAIS,9)
+SINAN_2007_2020_statisitic$CLI_VAGAIS<-replace(SINAN_2007_2020_statisitic$CLI_VAGAIS, SINAN_2007_2020_statisitic$CLI_VAGAIS==2, 0)
+SINAN_2007_2020_statisitic$CLI_VAGAIS.factor<- factor(SINAN_2007_2020_statisitic$CLI_VAGAIS,
+                                           levels = c(1,0), 
+                                           labels = c("Yes", "No"))
+
+#Value Labels myolytic / hemolytic
+SINAN_2007_2020_statisitic$CLI_MIOLIT<-as.numeric(as.character(SINAN_2007_2020_statisitic$CLI_MIOLIT))
+SINAN_2007_2020_statisitic$CLI_MIOLIT<-na_if(SINAN_2007_2020_statisitic$CLI_MIOLIT,9)
+SINAN_2007_2020_statisitic$CLI_MIOLIT<-replace(SINAN_2007_2020_statisitic$CLI_MIOLIT, SINAN_2007_2020_statisitic$CLI_MIOLIT==2, 0)
+SINAN_2007_2020_statisitic$CLI_MIOLIT.factor<- factor(SINAN_2007_2020_statisitic$CLI_MIOLIT,
+                                           levels = c(1,0), 
+                                           labels = c("Yes", "No"))
+
+#Value Labels kidney (oliguria/anuria)
+SINAN_2007_2020_statisitic$CLI_RENAL<-as.numeric(as.character(SINAN_2007_2020_statisitic$CLI_RENAL))
+SINAN_2007_2020_statisitic$CLI_RENAL<-na_if(SINAN_2007_2020_statisitic$CLI_RENAL,9)
+SINAN_2007_2020_statisitic$CLI_RENAL<-replace(SINAN_2007_2020_statisitic$CLI_RENAL, SINAN_2007_2020_statisitic$CLI_RENAL==2, 0)
+SINAN_2007_2020_statisitic$CLI_RENAL.factor<- factor(SINAN_2007_2020_statisitic$CLI_RENAL,
+                                          levels = c(1,0), 
+                                          labels = c("Yes", "No"))
+
+#Value Labels Other systemic
+SINAN_2007_2020_statisitic$CLI_OUTR_2<-as.numeric(as.character(SINAN_2007_2020_statisitic$CLI_OUTR_2))
+SINAN_2007_2020_statisitic$CLI_OUTR_2<-na_if(SINAN_2007_2020_statisitic$CLI_OUTR_2,9)
+SINAN_2007_2020_statisitic$CLI_OUTR_2<-replace(SINAN_2007_2020_statisitic$CLI_OUTR_2, SINAN_2007_2020_statisitic$CLI_OUTR_2==2, 0)
+SINAN_2007_2020_statisitic$CLI_OUTR_2.factor<- factor(SINAN_2007_2020_statisitic$CLI_OUTR_2,
+                                           levels = c(1,0), 
+                                           labels = c("Yes", "No"))
+#Value Labels Clotting time
+SINAN_2007_2020_statisitic$CLI_TEMPO_<-as.numeric(as.character(SINAN_2007_2020_statisitic$CLI_TEMPO_))
+SINAN_2007_2020_statisitic$CLI_TEMPO_<-na_if(SINAN_2007_2020_statisitic$CLI_TEMPO_,9)
+SINAN_2007_2020_statisitic$CLI_TEMPO_.factor<- factor(SINAN_2007_2020_statisitic$CLI_TEMPO_,
+                                           levels = c(1,2), 
+                                           labels = c("Normal", "Altered"))
+#Value Labels Accident Type
+SINAN_2007_2020_statisitic$TP_ACIDENT<-as.numeric(as.character(SINAN_2007_2020_statisitic$TP_ACIDENT))
+SINAN_2007_2020_statisitic$TP_ACIDENT<-na_if(SINAN_2007_2020_statisitic$TP_ACIDENT,9)
+SINAN_2007_2020_statisitic$TP_ACIDENT.factor<- factor(SINAN_2007_2020_statisitic$TP_ACIDENT,
+                                           levels = c(1,2,3,4,5,6), 
+                                           labels = c("Serpent", "Spider", "Scorpion",
+                                                      "Cerpillar", "Bee", "Other"))
+
+#Value Labels Snake - Type of accident
+SINAN_2007_2020_statisitic$ANI_SERPEN.factor<- as.numeric(as.character(SINAN_2007_2020_statisitic$ANI_SERPEN.factor))
+SINAN_2007_2020_statisitic$ANI_SERPEN.factor<- factor(SINAN_2007_2020_statisitic$ANI_SERPEN,
+                                           levels = c(1,2,3,4,5,9), 
+                                           labels = c("Bothropic", "Crotalic", "Elapidic",
+                                                      "Laquetic", "Non-Venomous Serpent", "ignored" ))
+
+#Value Labels Spider - Type of accident
+SINAN_2007_2020_statisitic$ANI_ARANHA.factor<-as.numeric(as.character(SINAN_2007_2020_statisitic$ANI_ARANHA.factor))
+SINAN_2007_2020_statisitic$ANI_ARANHA.factor<- factor(SINAN_2007_2020_statisitic$ANI_ARANHA,
+                                           levels = c(1,2,3,4,9), 
+                                           labels = c( "Foneutrismo", "Loxoscelismo", "Latrodectismo",
+                                                       "Outra Aranha", "ignored"))
+
+#Value Labels Caterpillar - Type of accident
+SINAN_2007_2020_statisitic$ANI_LAGART.factor<-as.numeric(as.character(SINAN_2007_2020_statisitic$ANI_LAGART.factor))
+SINAN_2007_2020_statisitic$ANI_LAGART.factor<- factor(SINAN_2007_2020_statisitic$ANI_LAGART,
+                                           levels = c(1,2,9), 
+                                           labels = c("Lonomia", "Outra lagarta", "ignored"))
+
+#Value Labels Case Classification
+SINAN_2007_2020_statisitic$TRA_CLASSI<-as.numeric(as.character(SINAN_2007_2020_statisitic$TRA_CLASSI))
+SINAN_2007_2020_statisitic$TRA_CLASSI<-na_if(SINAN_2007_2020_statisitic$TRA_CLASSI,9)
+SINAN_2007_2020_statisitic$TRA_CLASSI.factor<- factor(SINAN_2007_2020_statisitic$TRA_CLASSI,
+                                           levels = c(1,2,3), 
+                                           labels = c("Mild", "Moderate", "Severe"))
+
+#Value Labels serum therapy
+SINAN_2007_2020_statisitic$CON_SOROTE<-as.numeric(as.character(SINAN_2007_2020_statisitic$CON_SOROTE))
+SINAN_2007_2020_statisitic$CON_SOROTE<-na_if(SINAN_2007_2020_statisitic$CON_SOROTE,9)
+SINAN_2007_2020_statisitic$CON_SOROTE<-replace(SINAN_2007_2020_statisitic$CON_SOROTE, SINAN_2007_2020_statisitic$CON_SOROTE==2, 0)
+SINAN_2007_2020_statisitic$CON_SOROTE.factor<- factor(SINAN_2007_2020_statisitic$CON_SOROTE,
+                                           levels = c(1,0), 
+                                           labels = c("Yes", "No"))
+
+#Value Labels Local complications
+SINAN_2007_2020_statisitic$COM_LOC<-as.numeric(as.character(SINAN_2007_2020_statisitic$COM_LOC))
+SINAN_2007_2020_statisitic$COM_LOC<-na_if(SINAN_2007_2020_statisitic$COM_LOC,9)
+SINAN_2007_2020_statisitic$COM_LOC<-replace(SINAN_2007_2020_statisitic$COM_LOC, SINAN_2007_2020_statisitic$COM_LOC==2, 0)
+SINAN_2007_2020_statisitic$COM_LOC.factor<- factor(SINAN_2007_2020_statisitic$COM_LOC,
+                                        levels = c(1,0), 
+                                        labels = c("Yes", "No"))
+
+#Value Labels Secondary Infection
+SINAN_2007_2020_statisitic$COM_SECUND<-as.numeric(as.character(SINAN_2007_2020_statisitic$COM_SECUND))
+SINAN_2007_2020_statisitic$COM_SECUND<-na_if(SINAN_2007_2020_statisitic$COM_SECUND,9)
+SINAN_2007_2020_statisitic$COM_SECUND<-replace(SINAN_2007_2020_statisitic$COM_SECUND, SINAN_2007_2020_statisitic$COM_SECUND==2, 0)
+SINAN_2007_2020_statisitic$COM_SECUND.factor<- factor(SINAN_2007_2020_statisitic$COM_SECUND,
+                                           levels = c(1,0), 
+                                           labels = c("Yes", "No"))
+
+#Value Labels Extensive Necrosis
+SINAN_2007_2020_statisitic$COM_NECROS<-as.numeric(as.character(SINAN_2007_2020_statisitic$COM_NECROS))
+SINAN_2007_2020_statisitic$COM_NECROS<-na_if(SINAN_2007_2020_statisitic$COM_NECROS,9)
+SINAN_2007_2020_statisitic$COM_NECROS<-replace(SINAN_2007_2020_statisitic$COM_NECROS, SINAN_2007_2020_statisitic$COM_NECROS==2, 0)
+SINAN_2007_2020_statisitic$COM_NECROS.factor<- factor(SINAN_2007_2020_statisitic$COM_NECROS,
+                                           levels = c(1,0), 
+                                           labels = c("Yes", "No"))
+
+#Value Labels Behavioral Syndrome
+SINAN_2007_2020_statisitic$COM_COMPOR<-as.numeric(as.character(SINAN_2007_2020_statisitic$COM_COMPOR))
+SINAN_2007_2020_statisitic$COM_COMPOR<-na_if(SINAN_2007_2020_statisitic$COM_COMPOR,9)
+SINAN_2007_2020_statisitic$COM_COMPOR<-replace(SINAN_2007_2020_statisitic$COM_COMPOR, SINAN_2007_2020_statisitic$COM_COMPOR==2, 0)
+SINAN_2007_2020_statisitic$COM_COMPOR.factor<- factor(SINAN_2007_2020_statisitic$COM_COMPOR,
+                                           levels = c(1,0), 
+                                           labels = c("Yes", "No"))
+
+#Value Labels Functional Deficit
+SINAN_2007_2020_statisitic$COM_DEFICT<-as.numeric(as.character(SINAN_2007_2020_statisitic$COM_DEFICT))
+SINAN_2007_2020_statisitic$COM_DEFICT<-na_if(SINAN_2007_2020_statisitic$COM_DEFICT,9)
+SINAN_2007_2020_statisitic$COM_DEFICT<-replace(SINAN_2007_2020_statisitic$COM_DEFICT, SINAN_2007_2020_statisitic$COM_DEFICT==2, 0)
+SINAN_2007_2020_statisitic$COM_DEFICT.factor<- factor(SINAN_2007_2020_statisitic$COM_DEFICT,
+                                           levels = c(1,0), 
+                                           labels = c("Yes", "No"))
+
+#Value Labels Amputation
+SINAN_2007_2020_statisitic$COM_APUTAC<-as.numeric(as.character(SINAN_2007_2020_statisitic$COM_APUTAC))
+SINAN_2007_2020_statisitic$COM_APUTAC<-na_if(SINAN_2007_2020_statisitic$COM_APUTAC,9)
+SINAN_2007_2020_statisitic$COM_APUTAC<-replace(SINAN_2007_2020_statisitic$COM_APUTAC, SINAN_2007_2020_statisitic$COM_APUTAC==2, 0)
+SINAN_2007_2020_statisitic$COM_APUTAC.factor<- factor(SINAN_2007_2020_statisitic$COM_APUTAC,
+                                           levels = c(1,0), 
+                                           labels = c("Yes", "No"))
+
+#Value Labels Systemic Complications
+SINAN_2007_2020_statisitic$COM_SISTEM<-as.numeric(as.character(SINAN_2007_2020_statisitic$COM_SISTEM))
+SINAN_2007_2020_statisitic$COM_SISTEM<-na_if(SINAN_2007_2020_statisitic$COM_SISTEM,9)
+SINAN_2007_2020_statisitic$COM_SISTEM<-replace(SINAN_2007_2020_statisitic$COM_SISTEM, SINAN_2007_2020_statisitic$COM_SISTEM==2, 0)
+SINAN_2007_2020_statisitic$COM_SISTEM.factor<- factor(SINAN_2007_2020_statisitic$COM_SISTEM,
+                                           levels = c(1,0), 
+                                           labels = c("Yes", "No"))
+
+#Value Labels Renal
+SINAN_2007_2020_statisitic$COM_RENAL<-as.numeric(as.character(SINAN_2007_2020_statisitic$COM_RENAL))
+SINAN_2007_2020_statisitic$COM_RENAL<-na_if(SINAN_2007_2020_statisitic$COM_RENAL,9)
+SINAN_2007_2020_statisitic$COM_RENAL<-replace(SINAN_2007_2020_statisitic$COM_RENAL, SINAN_2007_2020_statisitic$COM_RENAL==2, 0)
+SINAN_2007_2020_statisitic$COM_RENAL.factor<- factor(SINAN_2007_2020_statisitic$COM_RENAL,
+                                          levels = c(1,0), 
+                                          labels = c("Yes", "No"))
+
+#Value Labels Respiratory/Acute Pulmonary Edema
+SINAN_2007_2020_statisitic$COM_EDEMA<-as.numeric(as.character(SINAN_2007_2020_statisitic$COM_EDEMA))
+SINAN_2007_2020_statisitic$COM_EDEMA<-na_if(SINAN_2007_2020_statisitic$COM_EDEMA,9)
+SINAN_2007_2020_statisitic$COM_EDEMA<-replace(SINAN_2007_2020_statisitic$COM_EDEMA, SINAN_2007_2020_statisitic$COM_EDEMA==2, 0)
+SINAN_2007_2020_statisitic$COM_EDEMA.factor<- factor(SINAN_2007_2020_statisitic$COM_EDEMA,
+                                          levels = c(1,0), 
+                                          labels = c("Yes", "No"))
+
+#Value Labels septicemia
+SINAN_2007_2020_statisitic$COM_SEPTIC<-as.numeric(as.character(SINAN_2007_2020_statisitic$COM_SEPTIC))
+SINAN_2007_2020_statisitic$COM_SEPTIC<-na_if(SINAN_2007_2020_statisitic$COM_SEPTIC,9)
+SINAN_2007_2020_statisitic$COM_SEPTIC<-replace(SINAN_2007_2020_statisitic$COM_SEPTIC, SINAN_2007_2020_statisitic$COM_SEPTIC==2, 0)
+SINAN_2007_2020_statisitic$COM_SEPTIC.factor<- factor(SINAN_2007_2020_statisitic$COM_SEPTIC,
+                                           levels = c(1,0), 
+                                           labels = c("Yes", "No"))
+
+#Value Labels Shock
+SINAN_2007_2020_statisitic$COM_CHOQUE<-as.numeric(as.character(SINAN_2007_2020_statisitic$COM_CHOQUE))
+SINAN_2007_2020_statisitic$COM_CHOQUE<-na_if(SINAN_2007_2020_statisitic$COM_CHOQUE,9)
+SINAN_2007_2020_statisitic$COM_CHOQUE<-replace(SINAN_2007_2020_statisitic$COM_CHOQUE, SINAN_2007_2020_statisitic$COM_CHOQUE==2, 0)
+SINAN_2007_2020_statisitic$COM_CHOQUE.factor<- factor(SINAN_2007_2020_statisitic$COM_CHOQUE,
+                                           levels = c(1,0), 
+                                           labels = c("Yes", "No"))
+
+#Value Labels work related accident
+SINAN_2007_2020_statisitic$DOENCA_TRA<-as.numeric(as.character(SINAN_2007_2020_statisitic$DOENCA_TRA))
+SINAN_2007_2020_statisitic$DOENCA_TRA<-na_if(SINAN_2007_2020_statisitic$DOENCA_TRA,9)
+SINAN_2007_2020_statisitic$DOENCA_TRA<-replace(SINAN_2007_2020_statisitic$DOENCA_TRA, SINAN_2007_2020_statisitic$DOENCA_TRA==2, 0)
+SINAN_2007_2020_statisitic$DOENCA_TRA.factor<- factor(SINAN_2007_2020_statisitic$DOENCA_TRA,
+                                           levels = c(1,0), 
+                                           labels = c("Yes", "No"))
+
+#Value Labels Evolution of the case
+SINAN_2007_2020_statisitic$EVOLUCAO<-as.numeric(as.character(SINAN_2007_2020_statisitic$EVOLUCAO))
+SINAN_2007_2020_statisitic$EVOLUCAO<-na_if(SINAN_2007_2020_statisitic$EVOLUCAO,9)
+SINAN_2007_2020_statisitic$EVOLUCAO<-na_if(SINAN_2007_2020_statisitic$EVOLUCAO,3)
+SINAN_2007_2020_statisitic$EVOLUCAO.factor<- factor(SINAN_2007_2020_statisitic$EVOLUCAO,
+                                         levels = c(1,2), 
+                                         labels = c("Cure", "Death from snakebite"))
+
+
+
+#Creating labels
+#Setting Labels
+label(SINAN_2007_2020_statisitic$TP_NOT)="Notification type"
+label(SINAN_2007_2020_statisitic$ID_AGRAVO)="What disease/disease"
+label(SINAN_2007_2020_statisitic$DT_NOTIFIC)="Notification date"
+label(SINAN_2007_2020_statisitic$SEM_NOT)="Epidemiological Week"
+label(SINAN_2007_2020_statisitic$NU_ANO)="Year"
+label(SINAN_2007_2020_statisitic$SG_UF_NOT)="State  of notification"
+label(SINAN_2007_2020_statisitic$ID_MUNICIP)="Notification Municipality"
+label(SINAN_2007_2020_statisitic$ID_REGIONA)="Region"
+label(SINAN_2007_2020_statisitic$DT_SIN_PRI)="Date of first symptom"
+label(SINAN_2007_2020_statisitic$SEM_PRI)="Epidemiological week of the first symptom"
+label(SINAN_2007_2020_statisitic$DT_NASC)="Date of birth"
+label(SINAN_2007_2020_statisitic$NU_IDADE_N)="Age in code"
+label(SINAN_2007_2020_statisitic$IDADE_Y)="Age"
+label(SINAN_2007_2020_statisitic$CS_SEXO)="Biological sex"
+label(SINAN_2007_2020_statisitic$CS_GESTANT)="Pregnant"
+label(SINAN_2007_2020_statisitic$CS_RACA)="Ethnicity"
+label(SINAN_2007_2020_statisitic$CS_ESCOL_N)="Education"
+label(SINAN_2007_2020_statisitic$SG_UF)="State of residence"
+label(SINAN_2007_2020_statisitic$ID_MN_RESI)="Resident Municipality"
+label(SINAN_2007_2020_statisitic$ID_RG_RESI)="Resident Region"
+label(SINAN_2007_2020_statisitic$ID_PAIS)="Country"
+label(SINAN_2007_2020_statisitic$DT_INVEST)="Investigation Date"
+label(SINAN_2007_2020_statisitic$ID_OCUPA_N)="Occupation"
+label(SINAN_2007_2020_statisitic$ANT_DT_ACI)="Accident attendance date"
+label(SINAN_2007_2020_statisitic$ANT_UF)="UF service"
+label(SINAN_2007_2020_statisitic$ANT_MUNIC_)="Municipality of Occurrence of the Accident"
+label(SINAN_2007_2020_statisitic$ANT_LOCALI)="Location of Accident Occurrence"
+label(SINAN_2007_2020_statisitic$ANT_ZONA)="Occurrence Zone"
+label(SINAN_2007_2020_statisitic$ANT_TEMPO_)="Elapsed Time Sting/Attendance"
+label(SINAN_2007_2020_statisitic$ANT_LOCA_1)="Location of the bite"
+label(SINAN_2007_2020_statisitic$MCLI_LOCAL)="Local Manifestations"
+label(SINAN_2007_2020_statisitic$CLI_DOR)="Ache"
+label(SINAN_2007_2020_statisitic$CLI_EDEMA)="Edema"
+label(SINAN_2007_2020_statisitic$CLI_EQUIMO)="Ecchymosis"
+label(SINAN_2007_2020_statisitic$CLI_NECROS)="Necrosis"
+label(SINAN_2007_2020_statisitic$CLI_LOCAL_)="Other locations"
+label(SINAN_2007_2020_statisitic$CLI_LOCA_1)="Other locations(specify)"
+label(SINAN_2007_2020_statisitic$MCLI_SIST)="Systemic manifestations"
+label(SINAN_2007_2020_statisitic$CLI_NEURO)="Neuroparalytic"
+label(SINAN_2007_2020_statisitic$CLI_HEMORR)="Hemorrhagic"
+label(SINAN_2007_2020_statisitic$CLI_VAGAIS)="Specify vagal (vomiting/diarrhea)"
+label(SINAN_2007_2020_statisitic$CLI_MIOLIT)="Myolytic / hemolytic"
+label(SINAN_2007_2020_statisitic$CLI_RENAL)="kidney (oliguria/anuria)"
+label(SINAN_2007_2020_statisitic$CLI_OUTR_2)="Other systemic"
+label(SINAN_2007_2020_statisitic$CLI_OUTR_3)="Other systemic (specify)"
+label(SINAN_2007_2020_statisitic$CLI_TEMPO_)="Clotting time"
+label(SINAN_2007_2020_statisitic$TP_ACIDENT)="Accident Type"
+label(SINAN_2007_2020_statisitic$ANI_TIPO_1)="In case of Others specify"
+label(SINAN_2007_2020_statisitic$ANI_SERPEN)="Snake - Type of accident"
+label(SINAN_2007_2020_statisitic$ANI_ARANHA)="Spider - Type of accident"
+label(SINAN_2007_2020_statisitic$ANI_LAGART)="Caterpillar - Type of accident"
+label(SINAN_2007_2020_statisitic$TRA_CLASSI)="Case Classification"
+label(SINAN_2007_2020_statisitic$CON_SOROTE)="Serum therapy"
+label(SINAN_2007_2020_statisitic$NU_AMPOLAS)="Antibrotopic (SAB)"
+label(SINAN_2007_2020_statisitic$NU_AMPOL_1)="Anticrotalus (SAC)"
+label(SINAN_2007_2020_statisitic$NU_AMPOL_8)="Antiarachnidic (SAAr)"
+label(SINAN_2007_2020_statisitic$NU_AMPOL_6)="Antibrotopic lacquer (SABL)"
+label(SINAN_2007_2020_statisitic$NU_AMPOL_4)="Antielapid (SAEL)"
+label(SINAN_2007_2020_statisitic$NU_AMPO_7)="Antiloxoscelic (SALox)"
+label(SINAN_2007_2020_statisitic$NU_AMPO_5)="Antibrotopicocrotalic (SABC)"
+label(SINAN_2007_2020_statisitic$NU_AMPOL_9)="Antiscorpion (SAEsc)"
+label(SINAN_2007_2020_statisitic$NU_AMPOL_3)="Antilonomic (SALon)"
+label(SINAN_2007_2020_statisitic$COM_LOC)="Local complications"
+label(SINAN_2007_2020_statisitic$COM_SECUND)="Secondary Infection"
+label(SINAN_2007_2020_statisitic$COM_NECROS)="Extensive Necrosis"
+label(SINAN_2007_2020_statisitic$COM_COMPOR)="Behavioral Syndrome"
+label(SINAN_2007_2020_statisitic$COM_DEFICT)="Functional Deficit"
+label(SINAN_2007_2020_statisitic$COM_APUTAC)="Amputation"
+label(SINAN_2007_2020_statisitic$COM_SISTEM)="Systemic Complications"
+label(SINAN_2007_2020_statisitic$COM_RENAL)="Renal"
+label(SINAN_2007_2020_statisitic$COM_EDEMA)="Respiratory/Acute Pulmonary Edema"
+label(SINAN_2007_2020_statisitic$COM_SEPTIC)="Septicemia"
+label(SINAN_2007_2020_statisitic$COM_CHOQUE)="Shock"
+label(SINAN_2007_2020_statisitic$DOENCA_TRA)="Work related accident"
+label(SINAN_2007_2020_statisitic$EVOLUCAO)="Evolution of the case"
+label(SINAN_2007_2020_statisitic$DT_OBITO)="Date of Death"
+label(SINAN_2007_2020_statisitic$DT_ENCERRA)="Closing date"
+label(SINAN_2007_2020_statisitic$DT_DIGITA)="Typing date"
+
+
+
+
+label(SINAN_2007_2020_statisitic$SG_UF_NOT.factor)="State  of notification"
+label(SINAN_2007_2020_statisitic$CS_SEXO.factor)="Biological sex"
+label(SINAN_2007_2020_statisitic$CS_GESTANT.factor)="Pregnant"
+label(SINAN_2007_2020_statisitic$CS_RACA.factor)="Ethnicity"
+label(SINAN_2007_2020_statisitic$CS_ESCOL_N.factor)="Education"
+label(SINAN_2007_2020_statisitic$ANT_TEMPO_.factor)="Elapsed Time Sting/Attendance"
+label(SINAN_2007_2020_statisitic$ANT_LOCA_1.factor)="Location of the bite"
+label(SINAN_2007_2020_statisitic$MCLI_LOCAL.factor)="Local Manifestations"
+label(SINAN_2007_2020_statisitic$CLI_DOR.factor)="Ache"
+label(SINAN_2007_2020_statisitic$CLI_EDEMA.factor)="Edema"
+label(SINAN_2007_2020_statisitic$CLI_EQUIMO.factor)="Ecchymosis"
+label(SINAN_2007_2020_statisitic$CLI_NECROS.factor)="Necrosis"
+label(SINAN_2007_2020_statisitic$CLI_LOCAL_.factor)="Other locations"
+label(SINAN_2007_2020_statisitic$MCLI_SIST.factor)="Systemic manifestations"
+label(SINAN_2007_2020_statisitic$CLI_NEURO.factor)="Neuroparalytic"
+label(SINAN_2007_2020_statisitic$CLI_HEMORR.factor)="Hemorrhagic"
+label(SINAN_2007_2020_statisitic$CLI_VAGAIS.factor)="Specify vagal (vomiting/diarrhea)"
+label(SINAN_2007_2020_statisitic$CLI_MIOLIT.factor)="Myolytic / hemolytic"
+label(SINAN_2007_2020_statisitic$CLI_RENAL.factor)="kidney (oliguria/anuria)"
+label(SINAN_2007_2020_statisitic$CLI_OUTR_2.factor)="Other systemic"
+label(SINAN_2007_2020_statisitic$CLI_TEMPO_.factor)="Clotting time"
+label(SINAN_2007_2020_statisitic$TP_ACIDENT.factor)="Accident Type"
+label(SINAN_2007_2020_statisitic$ANI_SERPEN.factor)="Snake - Type of accident"
+label(SINAN_2007_2020_statisitic$ANI_ARANHA.factor)="Spider - Type of accident"
+label(SINAN_2007_2020_statisitic$ANI_LAGART.factor)="Caterpillar - Type of accident"
+label(SINAN_2007_2020_statisitic$TRA_CLASSI.factor)="Case Classification"
+label(SINAN_2007_2020_statisitic$CON_SOROTE.factor)="Serum therapy"
+label(SINAN_2007_2020_statisitic$COM_LOC.factor)="Local complications"
+label(SINAN_2007_2020_statisitic$COM_SECUND.factor)="Secondary Infection"
+label(SINAN_2007_2020_statisitic$COM_NECROS.factor)="Extensive Necrosis"
+label(SINAN_2007_2020_statisitic$COM_COMPOR.factor)="Behavioral Syndrome"
+label(SINAN_2007_2020_statisitic$COM_DEFICT.factor)="Functional Deficit"
+label(SINAN_2007_2020_statisitic$COM_APUTAC.factor)="Amputation"
+label(SINAN_2007_2020_statisitic$COM_SISTEM.factor)="Systemic Complications"
+label(SINAN_2007_2020_statisitic$COM_RENAL.factor)="Renal"
+label(SINAN_2007_2020_statisitic$COM_EDEMA.factor)="Respiratory/Acute Pulmonary Edema"
+label(SINAN_2007_2020_statisitic$COM_SEPTIC.factor)="Aepticemia"
+label(SINAN_2007_2020_statisitic$COM_CHOQUE.factor)="Shock"
+label(SINAN_2007_2020_statisitic$DOENCA_TRA.factor)="Work related accident"
+label(SINAN_2007_2020_statisitic$EVOLUCAO.factor)="Evolution of the case"
+label(SINAN_2007_2020_statisitic$ANT_ZONA.factor)="Occurrence Zone"
+
+
+fisher.test.simulate.p.values <- function(data, variable, by, ...) {
+  result <- list()
+  test_results <- stats::fisher.test(data[[variable]], data[[by]], simulate.p.value = TRUE)
+  result$p <- test_results$p.value
+  result$test <- test_results$method
+  result
+}
+
+# Bothropic
+tab_Bothrops <- SINAN_2007_2020_statisitic %>% filter(ANI_SERPEN.factor=="Bothropic") %>% 
+  select(IDADE_Y ,CAT_IDADE.factor,
+         CS_SEXO.factor,CS_GESTANT.factor,
+         CS_RACA.factor ,CS_ESCOL_N.factor ,ANT_ZONA.factor,
+         ANT_TEMPO_.factor ,ANT_LOCA_1.factor ,MCLI_LOCAL.factor ,CLI_DOR.factor ,
+         CLI_EDEMA.factor ,CLI_EQUIMO.factor ,CLI_NECROS.factor ,CLI_LOCAL_.factor ,
+         MCLI_SIST.factor ,CLI_NEURO.factor ,CLI_HEMORR.factor ,CLI_VAGAIS.factor ,
+         CLI_MIOLIT.factor ,CLI_RENAL.factor ,CLI_OUTR_2.factor ,CLI_TEMPO_.factor,
+         TRA_CLASSI.factor ,CON_SOROTE.factor ,NU_AMPOLAS ,NU_AMPOL_1 ,NU_AMPOL_8 ,
+         NU_AMPOL_6 ,NU_AMPOL_4 ,NU_AMPO_7 ,NU_AMPO_5 ,NU_AMPOL_9 ,NU_AMPOL_3 ,
+         COM_LOC.factor ,COM_SECUND.factor ,COM_NECROS.factor ,COM_COMPOR.factor ,
+         COM_DEFICT.factor ,COM_APUTAC.factor ,COM_SISTEM.factor ,COM_RENAL.factor ,
+         COM_EDEMA.factor ,COM_SEPTIC.factor ,COM_CHOQUE.factor ,DOENCA_TRA.factor,EVOLUCAO.factor) %>%
+  tbl_summary(by = EVOLUCAO.factor, missing = "no", 
+              type=list(NU_AMPOLAS~"continuous",
+                        NU_AMPOL_1~"continuous",NU_AMPOL_8~"continuous",
+                        NU_AMPOL_6~"continuous",NU_AMPOL_4~"continuous", NU_AMPO_7~"continuous", 
+                        NU_AMPO_5~"continuous", NU_AMPOL_9~"continuous", NU_AMPOL_3~"continuous",
+                        IDADE_Y~"continuous"),
+              statistic = list(all_continuous() ~ "{mean} ({sd}) [{min}, {max}] ", 
+                               all_categorical() ~ "{n} / {N} ({p}%)"
+              )) %>%  bold_labels() %>% add_overall %>% 
+  add_p(test = list(all_categorical() ~ "fisher.test.simulate.p.values")) 
+tab_Bothrops
+
+
+# Crotalic
+tab_Crotalic <- SINAN_2007_2020_statisitic %>% filter(ANI_SERPEN.factor=="Crotalic") %>% 
+  select(IDADE_Y ,CAT_IDADE.factor,
+         CS_SEXO.factor,CS_GESTANT.factor,
+         CS_RACA.factor ,CS_ESCOL_N.factor ,ANT_ZONA.factor,
+         ANT_TEMPO_.factor ,ANT_LOCA_1.factor ,MCLI_LOCAL.factor ,CLI_DOR.factor ,
+         CLI_EDEMA.factor ,CLI_EQUIMO.factor ,CLI_NECROS.factor ,CLI_LOCAL_.factor ,
+         MCLI_SIST.factor ,CLI_NEURO.factor ,CLI_HEMORR.factor ,CLI_VAGAIS.factor ,
+         CLI_MIOLIT.factor ,CLI_RENAL.factor ,CLI_OUTR_2.factor ,CLI_TEMPO_.factor,
+         TRA_CLASSI.factor ,CON_SOROTE.factor ,NU_AMPOLAS ,NU_AMPOL_1 ,NU_AMPOL_8 ,
+         NU_AMPOL_6 ,NU_AMPOL_4 ,NU_AMPO_7 ,NU_AMPO_5 ,NU_AMPOL_9 ,NU_AMPOL_3 ,
+         COM_LOC.factor ,COM_SECUND.factor ,COM_NECROS.factor ,COM_COMPOR.factor ,
+         COM_DEFICT.factor ,COM_APUTAC.factor ,COM_SISTEM.factor ,COM_RENAL.factor ,
+         COM_EDEMA.factor ,COM_SEPTIC.factor ,COM_CHOQUE.factor ,DOENCA_TRA.factor,EVOLUCAO.factor) %>%
+  tbl_summary(by = EVOLUCAO.factor, missing = "no", 
+              type=list(NU_AMPOLAS~"continuous",
+                        NU_AMPOL_1~"continuous",NU_AMPOL_8~"continuous",
+                        NU_AMPOL_6~"continuous",NU_AMPOL_4~"continuous", NU_AMPO_7~"continuous", 
+                        NU_AMPO_5~"continuous", NU_AMPOL_9~"continuous", NU_AMPOL_3~"continuous",
+                        IDADE_Y~"continuous"),
+              statistic = list(all_continuous() ~ "{mean} ({sd}) [{min}, {max}] ", 
+                               all_categorical() ~ "{n} / {N} ({p}%)"
+              )) %>%  bold_labels() %>% add_overall %>% 
+  add_p(test = list(all_categorical() ~ "fisher.test.simulate.p.values")) 
+tab_Crotalic
+
+# Elapidic
+tab_Elapidic <- SINAN_2007_2020_statisitic %>% filter(ANI_SERPEN.factor=="Elapidic") %>% 
+  select(IDADE_Y ,CAT_IDADE.factor,
+         CS_SEXO.factor,CS_GESTANT.factor,
+         CS_RACA.factor ,CS_ESCOL_N.factor ,ANT_ZONA.factor,
+         ANT_TEMPO_.factor ,ANT_LOCA_1.factor ,MCLI_LOCAL.factor ,CLI_DOR.factor ,
+         CLI_EDEMA.factor ,CLI_EQUIMO.factor ,CLI_NECROS.factor ,CLI_LOCAL_.factor ,
+         MCLI_SIST.factor ,CLI_NEURO.factor ,CLI_HEMORR.factor ,CLI_VAGAIS.factor ,
+         CLI_MIOLIT.factor ,CLI_RENAL.factor ,CLI_OUTR_2.factor ,CLI_TEMPO_.factor,
+         TRA_CLASSI.factor ,CON_SOROTE.factor ,NU_AMPOLAS ,NU_AMPOL_1 ,NU_AMPOL_8 ,
+         NU_AMPOL_6 ,NU_AMPOL_4 ,NU_AMPO_7 ,NU_AMPO_5 ,NU_AMPOL_9 ,NU_AMPOL_3 ,
+         COM_LOC.factor ,COM_SECUND.factor ,COM_NECROS.factor ,COM_COMPOR.factor ,
+         COM_DEFICT.factor ,COM_APUTAC.factor ,COM_SISTEM.factor ,COM_RENAL.factor ,
+         COM_EDEMA.factor ,COM_SEPTIC.factor ,COM_CHOQUE.factor ,DOENCA_TRA.factor,EVOLUCAO.factor) %>%
+  tbl_summary(by = EVOLUCAO.factor, missing = "no", 
+              type=list(NU_AMPOLAS~"continuous",
+                        NU_AMPOL_1~"continuous",NU_AMPOL_8~"continuous",
+                        NU_AMPOL_6~"continuous",NU_AMPOL_4~"continuous", NU_AMPO_7~"continuous", 
+                        NU_AMPO_5~"continuous", NU_AMPOL_9~"continuous", NU_AMPOL_3~"continuous",
+                        IDADE_Y~"continuous"),
+              statistic = list(all_continuous() ~ "{mean} ({sd}) [{min}, {max}] ", 
+                               all_categorical() ~ "{n} / {N} ({p}%)"
+              )) %>%  bold_labels() %>% add_overall %>% 
+  add_p(test = list(all_categorical() ~ "fisher.test.simulate.p.values")) 
+tab_Elapidic
+
+
+# Laquetic
+tab_Laquetic <- SINAN_2007_2020_statisitic %>% filter(ANI_SERPEN.factor=="Laquetic") %>% 
+  select(IDADE_Y ,CAT_IDADE.factor,
+         CS_SEXO.factor,CS_GESTANT.factor,
+         CS_RACA.factor ,CS_ESCOL_N.factor ,ANT_ZONA.factor,
+         ANT_TEMPO_.factor ,ANT_LOCA_1.factor ,MCLI_LOCAL.factor ,CLI_DOR.factor ,
+         CLI_EDEMA.factor ,CLI_EQUIMO.factor ,CLI_NECROS.factor ,CLI_LOCAL_.factor ,
+         MCLI_SIST.factor ,CLI_NEURO.factor ,CLI_HEMORR.factor ,CLI_VAGAIS.factor ,
+         CLI_MIOLIT.factor ,CLI_RENAL.factor ,CLI_OUTR_2.factor ,CLI_TEMPO_.factor,
+         TRA_CLASSI.factor ,CON_SOROTE.factor ,NU_AMPOLAS ,NU_AMPOL_1 ,NU_AMPOL_8 ,
+         NU_AMPOL_6 ,NU_AMPOL_4 ,NU_AMPO_7 ,NU_AMPO_5 ,NU_AMPOL_9 ,NU_AMPOL_3 ,
+         COM_LOC.factor ,COM_SECUND.factor ,COM_NECROS.factor ,COM_COMPOR.factor ,
+         COM_DEFICT.factor ,COM_APUTAC.factor ,COM_SISTEM.factor ,COM_RENAL.factor ,
+         COM_EDEMA.factor ,COM_SEPTIC.factor ,COM_CHOQUE.factor ,DOENCA_TRA.factor,EVOLUCAO.factor) %>%
+  tbl_summary(by = EVOLUCAO.factor, missing = "no", 
+              type=list(NU_AMPOLAS~"continuous",
+                        NU_AMPOL_1~"continuous",NU_AMPOL_8~"continuous",
+                        NU_AMPOL_6~"continuous",NU_AMPOL_4~"continuous", NU_AMPO_7~"continuous", 
+                        NU_AMPO_5~"continuous", NU_AMPOL_9~"continuous", NU_AMPOL_3~"continuous",
+                        IDADE_Y~"continuous"),
+              statistic = list(all_continuous() ~ "{mean} ({sd}) [{min}, {max}] ", 
+                               all_categorical() ~ "{n} / {N} ({p}%)"
+              )) %>%  bold_labels() %>% add_overall %>% 
+  add_p(test = list(all_categorical() ~ "fisher.test.simulate.p.values")) 
+tab_Laquetic
+
+
+# Non-Venomous Serpent
+tab_Non_Venomous_Serpent <- SINAN_2007_2020_statisitic %>% filter(ANI_SERPEN.factor=="Non-Venomous Serpent") %>% 
+  select(IDADE_Y ,CAT_IDADE.factor,
+         CS_SEXO.factor,CS_GESTANT.factor,
+         CS_RACA.factor ,CS_ESCOL_N.factor ,ANT_ZONA.factor,
+         ANT_TEMPO_.factor ,ANT_LOCA_1.factor ,MCLI_LOCAL.factor ,CLI_DOR.factor ,
+         CLI_EDEMA.factor ,CLI_EQUIMO.factor ,CLI_NECROS.factor ,CLI_LOCAL_.factor ,
+         MCLI_SIST.factor ,CLI_NEURO.factor ,CLI_HEMORR.factor ,CLI_VAGAIS.factor ,
+         CLI_MIOLIT.factor ,CLI_RENAL.factor ,CLI_OUTR_2.factor ,CLI_TEMPO_.factor,
+         TRA_CLASSI.factor ,CON_SOROTE.factor ,NU_AMPOLAS ,NU_AMPOL_1 ,NU_AMPOL_8 ,
+         NU_AMPOL_6 ,NU_AMPOL_4 ,NU_AMPO_7 ,NU_AMPO_5 ,NU_AMPOL_9 ,NU_AMPOL_3 ,
+         COM_LOC.factor ,COM_SECUND.factor ,COM_NECROS.factor ,COM_COMPOR.factor ,
+         COM_DEFICT.factor ,COM_APUTAC.factor ,COM_SISTEM.factor ,COM_RENAL.factor ,
+         COM_EDEMA.factor ,COM_SEPTIC.factor ,COM_CHOQUE.factor ,DOENCA_TRA.factor,EVOLUCAO.factor) %>%
+  tbl_summary(by = EVOLUCAO.factor, missing = "no", 
+              type=list(NU_AMPOLAS~"continuous",
+                        NU_AMPOL_1~"continuous",NU_AMPOL_8~"continuous",
+                        NU_AMPOL_6~"continuous",NU_AMPOL_4~"continuous", NU_AMPO_7~"continuous", 
+                        NU_AMPO_5~"continuous", NU_AMPOL_9~"continuous", NU_AMPOL_3~"continuous",
+                        IDADE_Y~"continuous"),
+              statistic = list(all_continuous() ~ "{mean} ({sd}) [{min}, {max}] ",
+                               all_categorical() ~ "{n} / {N} ({p}%)"
+              )) %>%  bold_labels() %>% add_overall %>% 
+  add_p(test = list(all_categorical() ~ "fisher.test.simulate.p.values")) 
+tab_Non_Venomous_Serpent
+
+
+# Ignored 
+tab_Ignored <- SINAN_2007_2020_statisitic %>% filter(ANI_SERPEN.factor=="ignored") %>% 
+  select(IDADE_Y ,CAT_IDADE.factor,
+         CS_SEXO.factor,CS_GESTANT.factor,
+         CS_RACA.factor ,CS_ESCOL_N.factor ,ANT_ZONA.factor,
+         ANT_TEMPO_.factor ,ANT_LOCA_1.factor ,MCLI_LOCAL.factor ,CLI_DOR.factor ,
+         CLI_EDEMA.factor ,CLI_EQUIMO.factor ,CLI_NECROS.factor ,CLI_LOCAL_.factor ,
+         MCLI_SIST.factor ,CLI_NEURO.factor ,CLI_HEMORR.factor ,CLI_VAGAIS.factor ,
+         CLI_MIOLIT.factor ,CLI_RENAL.factor ,CLI_OUTR_2.factor ,CLI_TEMPO_.factor,
+         TRA_CLASSI.factor ,CON_SOROTE.factor ,NU_AMPOLAS ,NU_AMPOL_1 ,NU_AMPOL_8 ,
+         NU_AMPOL_6 ,NU_AMPOL_4 ,NU_AMPO_7 ,NU_AMPO_5 ,NU_AMPOL_9 ,NU_AMPOL_3 ,
+         COM_LOC.factor ,COM_SECUND.factor ,COM_NECROS.factor ,COM_COMPOR.factor ,
+         COM_DEFICT.factor ,COM_APUTAC.factor ,COM_SISTEM.factor ,COM_RENAL.factor ,
+         COM_EDEMA.factor ,COM_SEPTIC.factor ,COM_CHOQUE.factor ,DOENCA_TRA.factor,EVOLUCAO.factor) %>%
+  tbl_summary(by = EVOLUCAO.factor, missing = "no", 
+              type=list(NU_AMPOLAS~"continuous",
+                        NU_AMPOL_1~"continuous",NU_AMPOL_8~"continuous",
+                        NU_AMPOL_6~"continuous",NU_AMPOL_4~"continuous", NU_AMPO_7~"continuous", 
+                        NU_AMPO_5~"continuous", NU_AMPOL_9~"continuous", NU_AMPOL_3~"continuous",
+                        IDADE_Y~"continuous"),
+              statistic = list(all_continuous() ~ "{mean} ({sd}) [{min}, {max}] ", 
+                               all_categorical() ~ "{n} / {N} ({p}%)"
+              )) %>%  bold_labels() %>% add_overall %>% 
+  add_p(test = list(all_categorical() ~ "fisher.test.simulate.p.values")) 
+tab_Ignored
+
+# Total 
+tab_Total <- SINAN_2007_2020_statisitic %>% 
+  select(IDADE_Y ,CAT_IDADE.factor,
+         CS_SEXO.factor,CS_GESTANT.factor,
+         CS_RACA.factor ,CS_ESCOL_N.factor ,ANT_ZONA.factor,
+         ANT_TEMPO_.factor ,ANT_LOCA_1.factor ,MCLI_LOCAL.factor ,CLI_DOR.factor ,
+         CLI_EDEMA.factor ,CLI_EQUIMO.factor ,CLI_NECROS.factor ,CLI_LOCAL_.factor ,
+         MCLI_SIST.factor ,CLI_NEURO.factor ,CLI_HEMORR.factor ,CLI_VAGAIS.factor ,
+         CLI_MIOLIT.factor ,CLI_RENAL.factor ,CLI_OUTR_2.factor ,CLI_TEMPO_.factor,
+         TRA_CLASSI.factor ,CON_SOROTE.factor ,NU_AMPOLAS ,NU_AMPOL_1 ,NU_AMPOL_8 ,
+         NU_AMPOL_6 ,NU_AMPOL_4 ,NU_AMPO_7 ,NU_AMPO_5 ,NU_AMPOL_9 ,NU_AMPOL_3 ,
+         COM_LOC.factor ,COM_SECUND.factor ,COM_NECROS.factor ,COM_COMPOR.factor ,
+         COM_DEFICT.factor ,COM_APUTAC.factor ,COM_SISTEM.factor ,COM_RENAL.factor ,
+         COM_EDEMA.factor ,COM_SEPTIC.factor ,COM_CHOQUE.factor ,DOENCA_TRA.factor,EVOLUCAO.factor) %>%
+  tbl_summary(by = EVOLUCAO.factor, missing = "no", 
+              type=list(NU_AMPOLAS~"continuous",
+                        NU_AMPOL_1~"continuous",NU_AMPOL_8~"continuous",
+                        NU_AMPOL_6~"continuous",NU_AMPOL_4~"continuous", NU_AMPO_7~"continuous", 
+                        NU_AMPO_5~"continuous", NU_AMPOL_9~"continuous", NU_AMPOL_3~"continuous",
+                        IDADE_Y~"continuous"),
+              statistic = list(all_continuous() ~ "{mean} ({sd}) [{min}, {max}] ", 
+                               all_categorical() ~ "{n} / {N} ({p}%)"
+              )) %>%  bold_labels() %>% add_overall %>% 
+  add_p(test = list(all_categorical() ~ "fisher.test.simulate.p.values")) 
+tab_Total
+
+tbl_merge_ea <-gtsummary::tbl_merge(
+    tbls = list(tab_Total,tab_Bothrops,tab_Crotalic,tab_Elapidic,
+                  tab_Laquetic,tab_Non_Venomous_Serpent,
+                  tab_Ignored),
+    tab_spanner = c("Total", md("*Bothrops*"), md("*Crotalic*"), md("*Elapidic*"),md("*Laquetic*"), "Non-Venomous Serpent", "Ignored")
+)
+
+tbl_merge_ea
 
