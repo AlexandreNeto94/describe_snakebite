@@ -1,4 +1,4 @@
-# describe_snakebite
+# Description and quality of the snakebite database in Brazil from 2007 to 2020
 “NAIMAC” is a compressed .zip file with a set of 378 DATASUS open datasets.
 
 "R_script_for_Silva-Neto_et.al.05.07.2022.zip” is a compressed file with all R scripts used for dataset joining, variable preprocessing, completeness assessment, and Table 1 design.
