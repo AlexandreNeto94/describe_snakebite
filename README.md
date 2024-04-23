@@ -22,3 +22,5 @@
 "DATA_BASE" SINAN database to create table 3.
 
 "Table 3" Descriptive table
+
+"statistical_analysis.xlsx" The table with descriptive frequency analysis for the death outcome, for each type of snakebite accident
