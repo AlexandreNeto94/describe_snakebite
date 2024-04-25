@@ -23,4 +23,4 @@
 
 "Table 3" Descriptive table
 
-"statistical_analysis.xlsx" The table with descriptive frequency analysis and Statistical for the death outcome, for each type of snakebite.
+"Table 4" The table with descriptive frequency analysis and Statistical for the death outcome, for each type of snakebite.
